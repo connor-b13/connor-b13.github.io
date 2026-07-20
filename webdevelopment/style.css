@@ -1,23 +1,26 @@
 h1 {
     color: #f9fafb;
     font-size: 36px;
+    text-align: center;
 }
-h3 {
+h2 {
+    text-align: center;
     color: #f9fafb;
     font-size: 24px;
 }
 p {
+    text-indent: 3rem;
     color: #f9fafb;
     font-size: 18px;
 }
 
-*{
-    box-sizing: border-box;
+.stylized::first-letter{
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
-header{
-    background-image: url(resources/code_banner.jpg);
-    padding: 40px;
+*{
+    box-sizing: border-box;
 }
 
 body {
@@ -42,15 +45,22 @@ background-color: #1f2937;
     border-bottom: 1px solid #fbbf24;
 }
 
-.purpose{
+.standard{
     background-color: #111827;
     padding: 20px;
+    margin: 20px 10px;
 }
 
-.muted{
-    color: #9ca3af;
+.quote{
+    color:#9ca3af;
     padding: 1rem;
     padding-bottom: 3rem;
+}
+
+.muted p{
+    color: #9ca3af;
+    padding-bottom: 3rem;
+    text-align: center;
 }
 
 .btn,

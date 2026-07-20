@@ -6,6 +6,10 @@
     created 6/21/2026
     updated 7/20/2026
     Descriptiom: Home page for my personal website
+
+    Header content and pseudo included in nav.css
+    Navigation content included in nav.css
+    Body content and pseudo included in style.css
 -->
 
 <!--
@@ -18,32 +22,34 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - connor-b13</title><!--Remember to change title-->
-
+    <title>Home - connor-b13</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
 </head>
 
 <body>
     <header>
         <img src="resources/Cvectorlogo.svg" alt="Public use logo from https://www.magnific.com" class="site_logo">
-            <nav>
-                <a href="index.html"class="btn">Home</a>
-                <a href="about.html"class="btn">About</a>
-            <!--Enter more links as more pages are implemented-->
-            </nav>
-        
+        <nav>
+            <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="about.html" >About</a></li>
+                <li><a href="index.html" >Projects</a></li><!--Update link once page is implemented-->
+                <li><a href="reflection.html" >Reflection</a></li><!--Update link once page is implemented-->
+                <li><a href="index.html" >Contact</a></li><!--Update link once page is implemented-->
+            </ul>
+        </nav>
     </header>
 
-    <!--Hero section & quote-->
     <section class="hero">
         <h1>Welcome to my website</h1>
         <p>Hi, I'm Connor Bailey, a Computer Science student passionate about <strong>software development</strong>, <strong>data structures</strong>, <strong>machine-learning</strong>, and solving real world problems with technology.
         I made this website to showcase my projects, work history, technical skills, and academic experience as I continue growing as a developer.</p>
-        <a href="about.html"class="btn">About me</a> <!--Change to "see what I'm working on" and link to projects page when implemented-->
+        <a href="about.html" class="btn">About me</a> <!--Change to "see what I'm working on" and link to projects page when implemented-->
     </section>    
     
-    <section class="purpose">
-        <h3>My purpose</h3>
+    <section class="standard">
+        <h2>My purpose</h2>
         <p>My driving purpose is simple: to leave the world better than I found it.
          Growing up in a small town taught me how much of an impact I can have on other people's lives.
          This experience inspired me to pursue a career in technology, where I can extend my impact far beyond my hometown.
@@ -52,7 +58,7 @@
         </p>
     </section>
     
-    <section class="muted">
+    <section class="quote">
         <blockquote><em>“It always seems impossible until it's done”</em> -Nelson Mandela</blockquote>
         <!-- <blockquote><em>"What we know is a drop; what we don't know is an ocean."</em> -Sir Isaac Newton</blockquote> -->
         <!-- I might want to switch it up -->
