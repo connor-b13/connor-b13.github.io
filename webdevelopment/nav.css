@@ -1,0 +1,56 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #fbbf24;
+    padding: 0.75rem 2rem;
+}
+
+header .site_logo{
+    height: 70px;
+    width: auto;
+}
+
+nav{
+    flex-grow: 1;
+    margin-left: 2rem;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+
+    gap: 15px;
+    list-style: none;
+    align-items: center;
+
+    padding: 0.5rem 2rem;
+    margin: 0;
+
+    background-color: #fbbf24;
+}
+
+nav ul li a{
+    display: inline-block;
+    background-color: #1f2937;
+
+    padding: 0.5rem 1rem;
+
+    color: #ffffff;
+    text-decoration: none;
+
+    border-radius: 0.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+nav ul li a:hover{
+    background-color: #374151;
+    transform: translateY(-1px);
+}
+
+*{
+    box-sizing: border-box;
+}
