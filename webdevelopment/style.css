@@ -1,8 +1,81 @@
 h1 {
-    color: #222c29;
+    color: #f9fafb;
     font-size: 36px;
 }
+h3 {
+    color: #f9fafb;
+    font-size: 24px;
+}
 p {
-    color: darkslategray;
+    color: #f9fafb;
     font-size: 18px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(resources/code_banner.jpg);
+    padding: 40px;
+}
+
+body {
+    
+background-color: #1f2937;
+}
+
+.site_logo{
+    width: 150px;
+    height: auto;
+}
+
+.hero{
+    background-color: #111827;
+    color: #ffffff;
+    padding: 5rem 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+
+    border-top: 1px solid #fbbf24;
+    border-bottom: 1px solid #fbbf24;
+}
+
+.purpose{
+    background-color: #111827;
+    padding: 20px;
+}
+
+.muted{
+    
+    color: #9ca3af
+}
+
+.btn,
+header .btn{
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+
+    background-color: #fbbf24;
+    color: #1f2937;
+
+    border-radius:0.5rem;
+    border: none;
+
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #f59e0b;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(251,191,36,0.3);
+}
+
+.muted blockquote{
+    padding: 1rem;
+    padding-bottom: 3rem;
 }
