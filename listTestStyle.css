@@ -1,0 +1,14 @@
+ul{
+    list-style-type: square;
+    font-size: large;
+    color:slategray;
+    
+    background-color: aqua;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+ul :hover{
+    background-color: blue;
+    color: yellow;
+}
