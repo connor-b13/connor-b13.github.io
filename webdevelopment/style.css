@@ -48,8 +48,9 @@ background-color: #1f2937;
 }
 
 .muted{
-    
-    color: #9ca3af
+    color: #9ca3af;
+    padding: 1rem;
+    padding-bottom: 3rem;
 }
 
 .btn,
@@ -75,7 +76,26 @@ header .btn{
     box-shadow: 0 4px 12px rgba(251,191,36,0.3);
 }
 
-.muted blockquote{
-    padding: 1rem;
-    padding-bottom: 3rem;
+footer{
+    color: #9ca3af;
+}
+
+.resume_link{
+
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+
+    background-color: #fbbf24;
+    color: #1f2937;
+
+    border-radius:0.5rem;
+    border: none;
+
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+
+    text-decoration: none;
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
