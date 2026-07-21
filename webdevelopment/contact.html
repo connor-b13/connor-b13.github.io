@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!--
+    Connor Bailey
+    created 7/20/2026
+    Description: Contact page for my personal website
+
+    ###CSS styling for contact container and all fields is located in form.css###
+-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - connor-b13</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="resources/favicon.ico">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+    <header>
+        <img src="resources/Cvectorlogo.svg" alt="Public use logo from https://www.magnific.com" class="site_logo">
+        <nav>
+            <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="about.html" >About</a></li>
+                <li><a href="index.html" >Projects</a></li><!--Update link once page is implemented-->
+                <li><a href="reflection.html" >Reflection</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact_container">
+        <h1>Contact Me</h1>
+        <p>Have a question or want to get in touch? Send me a message below!</p>
+
+        <form action="#" method="POST" class="contact_form">
+            <div class="form_row">
+                <div class="form_group title_group">
+                    <label for="title">Title <span class="required">*</span> </label>
+                    <select id="title" name="title">
+                        <option value="" disabled selected>Select</option>
+                        <option value="Mr.">Mr.</option>
+                        <option value="Mrs.">Mrs.</option>
+                        <option value="Ms.">Ms.</option>
+                        <option value="Dr.">Dr.</option>
+                        <option value="Prof.">Prof.</option>
+                    </select>
+                </div>
+            
+                <div class="form_group name_group">
+                    <label for="fullname">Full Name <span class="required">*</span> </label>
+                    <input type="text" id="fullname" placeholder="JohnDoe" required>
+                </div>
+            
+                <div class="form_group">
+                    <label for="subject">Regarding <span class="required">*</span> </label>
+                    <select id="subject" name="subject">
+                        <option value="" disabled selected>Select a subject...</option>
+                        <option value="general">General Question</option>
+                        <option value="collaboration">Project Collaboration</option>
+                        <option value="recruiting">Employment Opportunity</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form_group email_group">
+                    <label for="email">Email <span class="required">*</span> </label>
+                    <input type="email" id="email" placeholder="JohnDoe@yourinstitution.com" required>
+                </div>
+            </div>
+                <div class="form_group">
+                    <label for="message">Message <span class="required">*</span></label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+                <button type="submit" class="btn submit_btn">Send Message</button>
+        </form>
+    </section>
+
+
+    <footer>
+        <ul>        
+            <li>Connor Bailey </li> 
+            <li>
+                <img src="resources/email_icon.png" alt="email logo icon by icons8 https://icons8.com" class="icon">
+                E-mail: connorwb2005@gmail.com</li>
+            
+            <li>
+                <img src="resources/github_icon.png" alt="github logo icon by icons8 https://icons8.com" class="icon">
+                github.com/connor-b13</li>      <!--I figured it would be more relevant to add a github link than a phone-->
+        </ul>
+    </footer>
+
+</body>
+</html>
