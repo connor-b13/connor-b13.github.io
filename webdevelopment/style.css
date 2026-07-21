@@ -150,3 +150,46 @@ footer{
     border-radius: 0.5rem;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
+
+@media print {
+
+    .about_page header,
+    .headshot,
+    .media_video,
+    .resume_link{
+        display: none;
+    }
+
+    .about_page h1{
+        background: white;
+        color: black;
+        font-size: 36px;
+        font-style: serif;
+    }
+
+    .about_page p{
+        background: white;
+        color: black;
+        font-size: 12px;
+        font-style: serif;
+    }
+
+    .about_page h2{
+        background: white;
+        color: black;
+        font-size: 24px;
+        font-style: serif;
+    }
+
+    .about_page footer{
+        background: white;
+        color: black;
+        font-size: 12px;
+        font-style: serif;
+    }
+   
+}
+
+@page {
+    margin: 1in;
+}
