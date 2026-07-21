@@ -108,4 +108,45 @@ footer{
 
     margin-top: 3rem;
     margin-bottom: 3rem;
+    margin-left: 7rem;
+}
+
+.about_container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.headshot{
+    width: 250px;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.video_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    max-width: 90rem;
+    margin: 5rem auto;
+}
+
+.video_text{
+    flex: 1;
+}
+
+.media_video{
+    flex: 1;
+    max-width: 500px;
+}
+
+.media_video video,
+.media_video iframe{
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
