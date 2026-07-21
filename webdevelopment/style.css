@@ -86,8 +86,15 @@ header .btn{
     box-shadow: 0 4px 12px rgba(251,191,36,0.3);
 }
 
-footer{
-    color: #9ca3af;
+footer ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+
+    padding: 1rem;
+    background-image: url('resources/code_banner.jpg');
 }
 
 .resume_link{
@@ -192,4 +199,9 @@ footer{
 
 @page {
     margin: 1in;
+}
+
+.icon{
+    max-height: 20px;
+    max-width: auto;
 }
